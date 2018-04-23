@@ -1,5 +1,5 @@
 #!/bin/python36
-# written by zhangjunfeng
+# written by zhangjunfeng.
 # 2018-04-19
 
 def triangles(max):
