@@ -9,3 +9,4 @@ class Student(object):
 Lucy=Student("lucy li",98)
 a=Lucy.print_score()
 print(a)
+#add master
