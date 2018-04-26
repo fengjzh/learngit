@@ -1,6 +1,6 @@
 #!/bin/python36
 # written by zhangjunfeng.
-# 2018-04-19
+# 2018-04-19.
 
 def triangles(max):
     N=[1]
