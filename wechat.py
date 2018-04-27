@@ -52,7 +52,7 @@ if __name__ == '__main__':
     subject = str(sys.argv[2])  #zabbix传过来的第二个参数
     content = str(sys.argv[3])  #zabbix传过来的第三个参数
     
-    corpid =  'wx9cd15f8f0a26ae55'   #CorpID是企业号的标识
-    corpsecret = '8Dt-nTycScRAFHlLRrlwvxo5D2XXDqMKusNGJAYxbndUrvMihnrwzn0T4ETHv3-U'  #corpsecretSecret是管理组证密钥
+    corpid =  'XXX'   #CorpID是企业号的标识
+    corpsecret = 'XXX'  #corpsecretSecret是管理组证密钥
     accesstoken = gettoken(corpid,corpsecret)
     senddata(accesstoken,user,subject,content)
