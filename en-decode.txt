@@ -1,0 +1,36 @@
+>>> import sys
+>>> sys.getdefaultencoding()
+'utf-8'
+>>> 
+>>> s1='中文'
+>>> s1
+'中文'
+>>> s1.__
+s1.__add__(            s1.__format__(         s1.__init__(           s1.__mul__(            s1.__rmul__(
+s1.__class__(          s1.__ge__(             s1.__init_subclass__(  s1.__ne__(             s1.__setattr__(
+s1.__contains__(       s1.__getattribute__(   s1.__iter__(           s1.__new__(            s1.__sizeof__(
+s1.__delattr__(        s1.__getitem__(        s1.__le__(             s1.__reduce__(         s1.__str__(
+s1.__dir__(            s1.__getnewargs__(     s1.__len__(            s1.__reduce_ex__(      s1.__subclasshook__(
+s1.__doc__             s1.__gt__(             s1.__lt__(             s1.__repr__(           
+s1.__eq__(             s1.__hash__(           s1.__mod__(            s1.__rmod__(           
+>>> s1.__class__()
+''
+>>> s1.__class__
+<class 'str'>
+>>> type(s1)
+<class 'str'>
+>>> s1.en
+s1.encode(    s1.endswith(  
+>>> s1.en
+s1.encode(    s1.endswith(  
+>>> s1.encode('gbk')
+b'\xd6\xd0\xce\xc4'
+>>> s1
+'中文'
+>>> s2=s1.encode('gbk')
+>>> s2
+b'\xd6\xd0\xce\xc4'
+>>> print(s2)
+b'\xd6\xd0\xce\xc4'
+>>> print(s2.decode('gbk'))
+中文
